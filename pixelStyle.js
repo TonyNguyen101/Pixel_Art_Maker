@@ -13,15 +13,10 @@ function makeGrid (element){
 			this.style.backgroundColor = paintBrush;
 			this.style.border = "solid 1px " + paintBrush;
 		})
-/*		gridSquare.addEventListener("mousedown", function(){
-			this.style.backgroundColor = paintBrush;
-			this.style.border = "solid 1px" + paintBrush;
-		})*/
 		gridSquare.addEventListener("dragenter", function(){
 			this.style.backgroundColor = paintBrush;
 			this.style.border = "solid 1px " + paintBrush;
 		})
-
 		element.appendChild(gridSquare);
 	}
 };
